@@ -22,3 +22,28 @@ data/raw – raw source data
 data/processed – cleaned data  
 data/curated – business-ready data  
 sql/ – database schema and queries  
+
+
+
+## Architecture Diagram
+
+          +-------------------+
+          |    RAW DATA       |
+          |   (CSV / Source)  |
+          +-------------------+
+                    ↓
+          +-------------------+
+          |   PROCESSED DATA  |
+          |   (Cleaned)       |
+          +-------------------+
+                    ↓
+          +-------------------+
+          |   CURATED DATA    |
+          | (Aggregated)      |
+          +-------------------+
+                    ↓
+          +-------------------+
+          |   DATA WAREHOUSE  |
+          |   (PostgreSQL)    |
+          +-------------------+
+
