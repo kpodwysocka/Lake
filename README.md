@@ -1,6 +1,6 @@
 # Lake
 
-# Data Lake to Data Warehouse Project
+# Data Lake to Data Warehouse Project trial as an excercise 
 
 ## Architecture
 
@@ -9,7 +9,7 @@ RAW (CSV files)
 → Curated layer
 → Data Warehouse (PostgreSQL schema)
 
-## Concepts demonstrated
+## Concepts
 
 - Data Lake layers (raw / processed / curated)
 - Data Warehouse schema
