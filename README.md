@@ -1,4 +1,4 @@
-# Lake
+# Aim of this small project was to remind myself basics of data processing workflow and data storage architecture, project simulates a simple data pipeline using Python and CSV files. It demonstrates the concept of Data Lake layers (raw, processed, curated) and basic data transformation.
 
 # Data Lake to Data Warehouse Project trial as an excercise 
 
